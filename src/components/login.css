@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Luxurious+Roman&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&display=swap');
+body{
+    font-family: 'Baloo Bhaijaan 2', cursive;
+}
+.login{
+    min-height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+    align-items: center;
+}
+.login .container{
+    /* width: 45vw;
+    min-width: 350px; */
+    /* background-color: #fff; */
+
+    margin: auto;
+}
+.login .container img{
+    height: 400px;
+    width: 400px;
+}
+.login .container .heading{
+    font-size: 3rem !important;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: 'Lobster', cursive;
+  
+}
+.login .container .subheading{
+    font-size: 2rem !important;
+    text-decoration: underline;
+    font-weight: bold;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    font-family: 'Luxurious Roman', cursive;
+}
+
+.form{
+    background-color: #fff;
+    border: 0px solid transparent;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.login .form .title{
+    padding: 35px 35px;
+    text-align: left;
+    font-size: 40px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+@media screen and (min-width:500px) and (max-width:970px) {
+    .login .container img{
+        height: 250px;
+        width: 250px;
+    }
+    .login .container{
+        max-width: 76% !important;
+    }
+    .login .container .heading{
+        font-size: 2.2rem !important;
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+    .login .container .subheading{
+        font-size: 1.25rem !important;
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:499px) {
+    
+    .login .container img{
+        display: none;
+    }
+    .login .container{
+        max-width: 80% !important;
+    }
+    .login .container .heading{
+        font-size: 2.2rem !important;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    .login .container .subheading{
+        font-size: 1.25rem !important;
+        margin-left: 0px;
+        margin-bottom: 20px;
+    }
+    
+     .login .form .title{
+     padding: 15px 15px;
+     font-size: 30px;
+    }
+
+}
